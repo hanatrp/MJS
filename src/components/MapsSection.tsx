@@ -53,7 +53,7 @@ const MapsSection = () => {
 
   return (
     <Wrapper>
-      <div className="flex flex-col xl:flex-row gap-10 justify-start items-start">
+      <div className="flex flex-col xl:flex-row gap-10 justify-start items-start mb-20 mt-48">
         {/* section maps */}
         <div className="h-1/2" ref={mapRef} />
 

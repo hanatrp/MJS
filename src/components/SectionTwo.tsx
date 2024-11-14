@@ -54,7 +54,7 @@ const SectionTwo: React.FC = () => {
   const { heading, description, imageSrc, } = Sections[selectedSection];
 
   return (
-    <div className="h-full flex flex-col gap-10 mt-20 mb-72 ">
+    <div className="h-full flex flex-col gap-10 mt-20 mb-72">
       {/* 02 heading */}
       <div className="flex flex-col items-start md:mx-32">
         <div className="flex justify-between gap-52 md:gap-96 text-hijau font-bold mb-12 md:text-lg text-sm">
